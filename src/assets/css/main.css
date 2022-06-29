@@ -1,0 +1,47 @@
+#app {
+    font-family: 'Poppins', sans-serif;
+}
+
+.router-link.active {
+    font-weight: bold;
+}
+
+
+/* bagian tombol button pesan */
+
+.btn-success {
+    background-color: rgb(9, 66, 38);
+}
+
+
+/* bagian dari button disamping kerangjang */
+
+.badge-success {
+    background-color: rgb(9, 66, 38);
+}
+
+
+/* bagian card */
+
+.card-product {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: black;
+}
+
+.img-fluid {
+    border-radius: 25px;
+}
