@@ -163,7 +163,7 @@ export default {
       if (this.pesan.nama && this.pesan.noMeja) {
         this.pesan.keranjangs = this.keranjangs;
         axios
-       .post("http://localhost:3000/pesanan",this.pesan)
+       .post("http://localhost:3000/pesanans",this.pesan)
        .then(() => {
 // hapus semua keranjjang
 

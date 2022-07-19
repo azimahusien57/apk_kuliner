@@ -3,9 +3,11 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 // setiap yang sudah dibuat di bagian vue harus didaftar kan dibawah ini
 import Foods from '../views/Foods.vue'
+import Drink from '../views/Drink.vue'
 import FoodDetail from '../views/FoodDetail.vue'
 import Keranjang from '../views/Keranjang.vue'
 import PesananSukses from '../views/PesananSukses.vue'
+
 Vue.use(VueRouter)
 
 const routes = [{
@@ -30,6 +32,19 @@ const routes = [{
 
 
     },
+
+    // drink
+    {
+        path: '/drink',
+        name: 'Drink',
+        component: Drink
+
+
+    },
+
+
+
+
 
     {
         path: '/keranjang',

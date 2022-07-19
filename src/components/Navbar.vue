@@ -11,9 +11,17 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/">Home </router-link>
             </li>
+            <!-- food -->
             <li class="nav-item">
               <router-link class="nav-link" to="/foods">Foods</router-link>
             </li>
+            <!-- drinl -->
+ <li class="nav-item">
+              <router-link class="nav-link" to="/drink">Drink</router-link>
+            </li>
+
+
+
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->

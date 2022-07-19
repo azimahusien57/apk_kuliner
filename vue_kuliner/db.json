@@ -99,32 +99,85 @@
       "gambar": "lontong-opor-ayam.jpg"
     }
   ],
-  "keranjangs": [
+  "keranjangs": [],
+  "pesanans": [
     {
-      "jumlah_pesanan": "1",
-      "keterangan": "pedas manis",
-      "products": {
-        "id": 4,
-        "kode": "K-04",
-        "nama": "Burger",
-        "harga": 18000,
-        "is_ready": true,
-        "gambar": "hamburger.jpg"
-      },
+      "nama": "dian",
+      "noMeja": "3",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "pedas manis",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Burger",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "hamburger.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "1",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "pedas",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kebab",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "kebab.jpg"
+          },
+          "id": 3
+        },
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "pedas",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Bakso Lemak Ikan",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "bakso.jpg"
+          },
+          "id": 4
+        }
+      ],
       "id": 1
     },
     {
-      "jumlah_pesanan": "1",
-      "products": {
-        "id": 1,
-        "kode": "K-01",
-        "nama": "Sate Ayam",
-        "harga": 17000,
-        "is_ready": true,
-        "gambar": "sate-ayam.jpg"
-      },
+      "nama": "dian",
+      "noMeja": "5",
+      "keranjangs": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "pedea",
+          "products": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Ramen",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "ramen-japan.jpg"
+          },
+          "id": 1
+        }
+      ],
       "id": 2
     }
-  ],
-  "pesanans": []
+  ]
 }

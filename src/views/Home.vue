@@ -10,6 +10,8 @@
  <!-- tombol lihat semua -->
  <div class="col">
   <router-link to="/foods" class="btn btn-success float-right"><b-icon-eye></b-icon-eye> Lihat semua</router-link>
+<!-- drink -->
+  <!-- <router-link to="/drink" class="btn btn-success float-right"><b-icon-eye></b-icon-eye> Lihat semua</router-link> -->
  </div>
  </div> 
  <!--  -->
